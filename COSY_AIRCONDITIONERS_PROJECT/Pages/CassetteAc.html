@@ -1,0 +1,108 @@
+<div class="cassetteAc" ng-controller="cassetteAcCtrl">
+  <div class="banner-products">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-12  product-slide">
+          <div id="myHomeSlide" class="carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myHomeSlide" data-slide-to="0" class="active"></li>
+              <li data-target="#myHomeSlide" data-slide-to="1"></li>
+              <li data-target="#myHomeSlide" data-slide-to="2"></li>
+              <li data-target="#myHomeSlide" data-slide-to="3"></li>
+              <li data-target="#myHomeSlide" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner sub-title">
+              <div class="carousel-item active">
+                <img src="https://d33wubrfki0l68.cloudfront.net/e2b46f55a07fbc21b9d3a6b4c8aad348a024caa3/8b517/slider/cassette_slider/images/01.png" alt="01" border="0">
+              </div>
+              <div class="carousel-item">
+                <img src="https://d33wubrfki0l68.cloudfront.net/a7bdfebd84fae07140b4bad5a459acf2f199347a/2dce4/slider/cassette_slider/images/02.png" alt="02" border="0">
+              </div>
+              <div class="carousel-item">
+                <img src="https://d33wubrfki0l68.cloudfront.net/1adfbcc15b003b3a74d4b009a28f712991e2d6fa/e0a06/slider/cassette_slider/images/03.png" alt="03" border="0">
+              </div>
+              <div class="carousel-item">
+                <img src="https://d33wubrfki0l68.cloudfront.net/8b4d9a03695e17dfd5675bc2b9ac1b3372a35314/42e39/slider/cassette_slider/images/04.png" alt="04" border="0">
+              </div>
+              <div class="carousel-item">
+                <img src="https://d33wubrfki0l68.cloudfront.net/09ff1f6cbfff646fc4bdfa495d9b7995f1f72500/9bf0f/slider/cassette_slider/images/05.png" alt="05" border="0">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12  product-title">
+          <h1>Cassette Air Conditioners</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" ng-repeat="(key, value) in pro">
+          <div class="card mb-4 box-shadow">
+            <div class="avatar-pro-cassette">
+              <img class="card-img-top" ng-src="{{value.avatar}}" alt="Card image cap">
+            </div>
+            <div class="card-body text-center">
+              <h2 class="text-white">{{value.name}}</h2>
+              <h3 style="color: #b3c9cf">{{value.type}}</h3>
+              <p class="card-text text-white">{{value.price}}$</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" ng-click="showCassette(value)">View</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+     <!-- Modal -->
+  <div class="modal fade text-white" id="cassetteModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable|modal-dialog-centered modal-sm|modal-lg|modal-xl" role="document">
+      <div class="modal-content" style="background-image: linear-gradient(#0888e0,#156a8f);">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">PRODUCT DETAILS</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <p style="font-size: 25px">{{list.name}} {{list.type}}</p>
+          <img ng-src="{{list.avatar}}" alt="" class="mt-4 mb-4">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="title-left">
+                  <span>Features</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="title-right">
+                  <span>Specifications</span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 text-left">
+                <div class="content-left">
+                <li>Compact Design</li>
+                <li>3D Airflow</li>
+                <li>Rouding Natural Air</li>
+                </div>
+              </div>
+              <div class="col-md-6 text-left">
+                <div class="content-right">
+                <li>Cooling (Btu/H) : {{list.colling}}</li>
+                <li>Power Input (W) : {{list.power}}</li>
+                <li>EER : {{list.eer}}</li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>

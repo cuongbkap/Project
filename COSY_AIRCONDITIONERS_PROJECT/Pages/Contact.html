@@ -1,0 +1,58 @@
+<div class="container" ng-controller="myContactCtrl">
+	<div class="row">
+		<div class="row bgcontact">
+      <div class="col-md-8 col-12 wrap-contact">
+        <div id="c-left_container">
+            <H1>Contact <span>Us</span></H1>
+            <h2>Home Office:</h2>
+            <h3>Progressive Center, Main Shahrah-e-Faisal, Karachi</h3>
+            <h3>Phone : (92) 333 3546988</h3>
+            <h3>Toll Free : (800) 633 7621</h3>
+            <h3>Fax : (92) 21 39261340</h3>
+            <h3><a href="mailto:info@cosyacs-pak.com">info@cosyacs-pak.com</a></h3>
+            <h2>Sales:</h2>
+            <h3><a href="mailto:sales@cosyacs-pak.com">sales@cosyacs-pak.com</a></h3>
+            <h3>Hafiz Muhammad Wasif Malik</h3>
+            <h3>Moiz Khan</h3>
+            <h3>Muhammad Hassan Khan</h3>
+            <h3>Muhammad Zohaib Javed</h3>
+            <h3>Aftab Ahmed</h3>                    
+            <div id="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59587.94583115044!2d105.80194399300176!3d21.0228161356565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab9bd9861ca1%3A0xe7887f7b72ca17a9!2zSMOgIE7hu5lpLCBIb8OgbiBLaeG6v20sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1605387484319!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-4 col-12 form-contact">
+        <form onSubmit="Message();">
+          <div>
+            <h2>Send us a note:</h2>
+            <h3>You can reach us using any of the numbers on this page or you can fill out the short form below to have someone contact you!</h3>
+            <br>
+            <h3 class="h3_uppercase-style">Name :</h3>
+            <input type="text" value="" class="h3_cap-style" pattern="[a-zA-Z]*" required id="name" placeholder="Wasif Malik" />
+            <br><br>
+            <h3 class="h3_uppercase-style">E-mail :</h3>
+            <input type="text" value="" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,3}$" required id="email" placeholder="wasif@example.net" />
+            <br><br>
+            <h3 class="h3_uppercase-style" >Phone :</h3>
+            <input type="text" value="" pattern="\d{4}[-\\.\\s]\d{7}" required id="phone" placeholder="xxxx-xxxxxxx" />
+            <br><br>
+            <h3>*How would you like to be contacted?</h3>
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <span>Phone</span>
+                <input type="radio" name="contected" class="radio-check" required checked/>
+              </div>
+              <div class="col-md-6 col-12">
+                <span>E-mail</span>
+                <input type="radio" name="contected" class="radio-check" required/>
+              </div>
+            </div>
+            <br><br>
+            <input type="submit"  value="Submit"   class="btn-submit"  >             
+          </div>
+        </form>
+      </div>
+    </div>
+	</div>
+</div>

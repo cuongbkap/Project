@@ -1,0 +1,137 @@
+[
+	{
+		"name":"Mitsubishi",
+		"type":"1 Ton Inverter Series HJ35VA",
+		"avatar":"https://d33wubrfki0l68.cloudfront.net/ac01525f401f9edc63242fe692fe617278a51543/59a4a/images/brands/mitsubishi/split/01.png",
+		"price":"81",
+		"colling":"42000",
+		"power":"4700",
+		"eer":"6.2-2.75"
+	},
+	{
+		"name":"Mitsubishi",
+		"type":"3 Ton Inverter Series HJ50VA",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Mitsubishi/Split/02.png",
+		"price":"104",
+		"colling":"17000",
+		"power":"4900",
+		"eer":"7.51"
+	},
+	{
+		"name":"Mitsubishi",
+		"type":"2 Ton Inverter Series HJ71VA",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Mitsubishi/Split/03.png",
+		"price":"148",
+		"colling":"35000",
+		"power":"3500",
+		"eer":"6.4-2.40"
+	},
+	{
+		"name":"Carrier",
+		"type":"CACI12OC3I6 1 Ton",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Carrier/Split/01.png",
+		"price":"146.3",
+		"colling":"42000",
+		"power":"4200",
+		"eer":"8.1-3.85"
+	},
+	{
+		"name":"Carrier",
+		"type":"CACS18SU3C3 1.5 Ton",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Carrier/Split/02.png",
+		"price":"156.8",
+		"colling":"38000",
+		"power":"4500",
+		"eer":"6.4-4.2"
+	},
+	{
+		"name":"Carrier",
+		"type":"Durakool 42KGL 012T",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Carrier/Split/03.png",
+		"price":"164.6",
+		"colling":"48000",
+		"power":"5500",
+		"eer":"7.2-5.2"
+	},
+	{
+		"name":"Orient",
+		"type":"OS-13 MP14 BM Pattern ",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Orient/Split/01.png",
+		"price":"38.5",
+		"colling":"47000",
+		"power":"3800",
+		"eer":"7.2-2.8"
+	},
+	{
+		"name":"Orient",
+		"type":"Econotech Series 1 Ton",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Orient/Split/02.png",
+		"price":"36.5",
+		"colling":"52000",
+		"power":"4800",
+		"eer":"6.2-3.4"
+	},
+	{
+		"name":"Orient",
+		"type":"DC Inverter Ultron Plus",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Orient/Split/03.png",
+		"price":"96",
+		"colling":"53000",
+		"power":"4800",
+		"eer":"5.5-3.2"
+	},
+	{
+		"name":"Sanyo",
+		"type":"SA-KC22BG3",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Orient/Split/01.png",
+		"price":"122",
+		"colling":"51000",
+		"power":"4800",
+		"eer":"6.4-2.75"
+	},
+	{
+		"name":"Sanyo",
+		"type":"SAP-KR543E",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Sanyo/Split/02.png",
+		"price":"286,4",
+		"colling":"48000",
+		"power":"3600",
+		"eer":"4.1-1.4"
+	},
+	{
+		"name":"Sanyo",
+		"type":"SA-KC18BG3",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Sanyo/Split/03.png",
+		"price":"138.9",
+		"colling":"37000",
+		"power":"3900",
+		"eer":"5.5-1.4"
+	},
+	{
+		"name":"LG",
+		"type":"TS-C126LGA7 (1 Ton)",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Orient/Split/03.png",
+		"price":"320.39",
+		"colling":"42000",
+		"power":"4700",
+		"eer":"6.2-2.75"
+	},
+	{
+		"name":"LG",
+		"type":"TS-186KAA7 (1.5 Ton)",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/LG/Split/02.png",
+		"price":"55.5",
+		"colling":"48000",
+		"power":"3400",
+		"eer":"5.1-3.75"
+	},
+	{
+		"name":"LG",
+		"type":"TS-C246KAA7 (2 Ton)",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/LG/Split/03.png",
+		"price":"63.8",
+		"colling":"36000",
+		"power":"4500",
+		"eer":"6.4-2.7"
+	}
+]

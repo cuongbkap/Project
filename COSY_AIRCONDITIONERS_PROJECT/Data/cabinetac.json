@@ -1,0 +1,137 @@
+[
+	{
+		"name":"Mitsubishi",
+		"type":"PS 3 2 Ton",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Mitsubishi/Cabinet/01.png",
+		"price":"121.9",
+		"colling":"42000",
+		"power":"4100",
+		"eer":"7.2-4.35"
+	},
+	{
+		"name":"Mitsubishi",
+		"type":"4 TON PS SERIES 5JJ",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Mitsubishi/Cabinet/02.png",
+		"price":"251.9",
+		"colling":"44000",
+		"power":"5100",
+		"eer":"8.2-4.10"
+	},
+	{
+		"name":"Mitsubishi",
+		"type":"PS-3 2.5 Ton Semi Inverter",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Mitsubishi/Cabinet/03.png",
+		"price":"229.9",
+		"colling":"39000",
+		"power":"4500",
+		"eer":"7.1-3.10"
+	},
+	{
+		"name":"Carrier",
+		"type":"1.5 Ton",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Carrier/Cabinet/01.png",
+		"price":"180",
+		"colling":"39000",
+		"power":"4800",
+		"eer":"7.1-3.75"
+	},
+	{
+		"name":"Carrier",
+		"type":"4.0HP Non-Inverter",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Carrier/Cabinet/02.png",
+		"price":"202.6",
+		"colling":"42000",
+		"power":"3200",
+		"eer":"6.1-4.75"
+	},
+	{
+		"name":"Carrier",
+		"type":"6.0HP Non-Inverter",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Carrier/Cabinet/03.png",
+		"price":"137.2",
+		"colling":"51000",
+		"power":"4300",
+		"eer":"6.4-3.45"
+	},
+	{
+		"name":"Orient",
+		"type":"2 Ton OFS-24-MJ",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Orient/Cabinet/01.png",
+		"price":"90.9",
+		"colling":"40000",
+		"power":"4600",
+		"eer":"5.3-2.75"
+	},
+	{
+		"name":"Orient",
+		"type":"4 Ton OFS - 48 S2",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Orient/Cabinet/02.png",
+		"price":"131.9",
+		"colling":"51000",
+		"power":"3200",
+		"eer":"6.5-3.2"
+	},
+	{
+		"name":"Orient",
+		"type":"4 Ton OF-48MJ",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Orient/Cabinet/01.png",
+		"price":"136.9",
+		"colling":"58000",
+		"power":"4500",
+		"eer":"7.5-3.2"
+	},
+	{
+		"name":"Sanyo",
+		"type":"0.75 Ton",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Sanyo/Cabinet/01.png",
+		"price":"158.4",
+		"colling":"37000",
+		"power":"4500",
+		"eer":"6.2-1.8"
+	},
+	{
+		"name":"Sanyo",
+		"type":"2.3 Ton RQ71CXV1",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Sanyo/Cabinet/02.png",
+		"price":"299,4",
+		"colling":"42000",
+		"power":"4100",
+		"eer":"5.7-1.8"
+	},
+	{
+		"name":"Sanyo",
+		"type":"3.8 Ton RQ125DXY1",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/Sanyo/Cabinet/03.png",
+		"price":"251.1",
+		"colling":"48000",
+		"power":"3700",
+		"eer":"6.2-1.8"
+	},
+	{
+		"name":"LG",
+		"type":"AF-Q236GMC0",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/LG/Cabinet/01.png",
+		"price":"289.2",
+		"colling":"57000",
+		"power":"4800",
+		"eer":"7.3-4.5"
+	},
+	{
+		"name":"LG",
+		"type":"TPC C 488 TICI 4 Ton",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/LG/Cabinet/02.png",
+		"price":"204.9",
+		"colling":"43000",
+		"power":"3800",
+		"eer":"6.6-2.5"
+	},
+	{
+		"name":"LG",
+		"type":"TP-C186SLV0",
+		"avatar":"https://cosy-air-conditioners.netlify.app/Images/Brands/LG/Cabinet/03.png",
+		"price":"93.8",
+		"colling":"36000",
+		"power":"4500",
+		"eer":"6.4-2.7"
+	}
+]
